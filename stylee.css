@@ -1,0 +1,63 @@
+/* Reset beberapa gaya bawaan browser */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Atur gaya untuk elemen <body> */
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+/* Atur gaya untuk elemen <h1> di dalam <div> */
+div {
+    text-align: center;
+    background-color: burlywood;
+    color: #1b1818;
+    padding: 5px;
+}
+
+/* Atur gaya untuk elemen <h2> dan <h3> */
+h2, h3 {
+    margin: 20px;
+}
+
+/* Atur gaya untuk elemen <audio> dan <video> */
+audio, video {
+    max-width: 100%;
+}
+
+/* Atur gaya untuk tombol */
+button {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Atur gaya untuk elemen <iframe> */
+iframe {
+    border: none;
+}
+
+/* Atur gaya untuk elemen <p> dalam <div> dengan ID "demo" */
+#demo {
+    font-weight: bold;
+}
+
+/* Atur gaya untuk elemen <img> */
+img {
+    width: 88px;
+    height: 88px;
+}
+
+/* Atur gaya untuk <div> dengan ID "div1" dan "div2" */
+#div1, #div2 {
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1b1818;
+    margin: 10px;
+    float: left;
+}
+
